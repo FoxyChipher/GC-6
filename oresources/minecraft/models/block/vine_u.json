@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/vine",
+		"vine": "block/vine"
+	},
+	"elements": [
+		{
+			"from": [0, 15.2, 0],
+			"to": [16, 15.2, 16],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#vine"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [0, 14.4, 0],
+			"to": [16, 14.4, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.2, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "texture": "#vine"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#vine"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "vine_3u",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "vine_3u",
+					"origin": [8, 8, 8],
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/vine",
+		"vine": "block/vine"
+	},
+	"elements": [
+		{
+			"from": [0, 15.2, 0],
+			"to": [16, 15.2, 16],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#vine"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [0, 14.4, 0],
+			"to": [16, 14.4, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.2, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "texture": "#vine"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [15.2, 0, 0],
+			"to": [15.2, 16, 16],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 8, 8], "texture": "#vine"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [14, 0, 0],
+			"to": [14, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 8, 16], "texture": "#vine"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [0, 0, 15.2],
+			"to": [16, 16, 15.2],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#vine"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [0, 0, 14],
+			"to": [16, 16, 14],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 6.8]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#vine"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [0, 0, 0.8],
+			"to": [16, 16, 0.8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#vine"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#vine"}
+			}
+		},
+		{
+			"from": [0, 0, 2],
+			"to": [16, 16, 2],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9.2]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#vine"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#vine"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "vine_3u",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}, 7]
+}
