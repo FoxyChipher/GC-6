@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2023-07-29 21:43:07.886
+# 2023-07-29 22:21:22.38
 armorBars:
 	enabled:false
 	posMode:0
@@ -22,17 +22,17 @@ arrowCount:
 	position2:5,5
 	mode:0
 biome:
-	enabled:true
+	enabled:false
 	posMode:0
-	position:topRight
-	position2:5,5
+	position:bottomRight
+	position2:621,122
 	red:255.0
 	green:255.0
 	blue:255.0
 blockViewer:
 	enabled:true
 	posMode:0
-	position:topCenter
+	position:bottomRight
 	position2:5,5
 	showBlock:true
 	distance:256.0
@@ -47,11 +47,11 @@ breedIndicator:
 clock:
 	enabled:true
 	posMode:0
-	position:topRight
+	position:topLeft
 	position2:0,5
-	24hr:false
+	24hr:true
 compass:
-	enabled:true
+	enabled:false
 	posMode:1
 	position:256,56
 	scaledDirections:50.0
@@ -66,10 +66,10 @@ connection:
 	green:255.0
 	blue:255.0
 	playerCount:true
-	showIp:true
+	showIp:false
 	latency:true
 coordinates:
-	enabled:true
+	enabled:false
 	posMode:0
 	position:topCenter
 	position2:5,5
@@ -124,7 +124,7 @@ fullInvIndicator:
 	position:topRight
 	position2:5,5
 healIndicator:
-	enabled:true
+	enabled:false
 	posMode:0
 	position:5,5
 	mode:1
@@ -133,8 +133,8 @@ hidePlayers:
 	includeMe:false
 handBar:
 	enabled:true
-	posMode:0
-	position:5,5
+	posMode:1
+	position:5,330
 	showItem:true
 	showDurability:true
 	durabilityMode:0
@@ -145,7 +145,7 @@ horseInfo:
 	speed:true
 	distance:100.0
 foodIndicator:
-	enabled:true
+	enabled:false
 	posMode:0
 	position:bottomCenter
 	position2:5,5
@@ -153,7 +153,7 @@ foodIndicator:
 itemPickup:
 	enabled:true
 	posMode:0
-	position:middleCenter
+	position:bottomRight
 	position2:5,5
 lightLevel:
 	enabled:false
@@ -175,9 +175,9 @@ potionBar:
 	position2:5,5
 signReader:
 	enabled:true
-	posMode:0
-	position:middleLeft
-	position2:5,5
+	posMode:1
+	position:middleRight
+	position2:590,276
 	mode:1
 systemClock:
 	enabled:true
@@ -187,7 +187,7 @@ systemClock:
 	24hr:false
 	showSeconds:false
 	dateType:1
-	fullYear:true
+	fullYear:false
 waterDrops:
 	enabled:false
 	density:3
