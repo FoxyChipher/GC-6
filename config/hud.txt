@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2023-07-29 22:21:22.38
+# 2023-08-01 11:34:39.123
 armorBars:
 	enabled:false
 	posMode:0
@@ -134,7 +134,7 @@ hidePlayers:
 handBar:
 	enabled:true
 	posMode:1
-	position:5,330
+	position:5,361
 	showItem:true
 	showDurability:true
 	durabilityMode:0
