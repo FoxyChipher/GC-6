@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2023-08-01 11:34:39.123
+# 2023-08-03 20:40:04.304
 armorBars:
 	enabled:false
 	posMode:0
@@ -18,7 +18,7 @@ armorBars:
 arrowCount:
 	enabled:true
 	posMode:0
-	position:middleRight
+	position:middleLeft
 	position2:5,5
 	mode:0
 biome:
@@ -184,10 +184,10 @@ systemClock:
 	posMode:0
 	position:middleLeft
 	position2:0,5
-	24hr:false
-	showSeconds:false
-	dateType:1
-	fullYear:false
+	24hr:true
+	showSeconds:true
+	dateType:0
+	fullYear:true
 waterDrops:
 	enabled:false
 	density:3
